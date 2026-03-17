@@ -6,7 +6,7 @@ import { defineConfig, loadEnv } from 'vite';
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, '.', '');
   return {
-    base: '/KEO-BONG-DA-V8/', // Cấu hình đường dẫn cho GitHub Pages
+    base: './', // Cấu hình đường dẫn cho GitHub Pages
     plugins: [
       react(),
       tailwindcss()
